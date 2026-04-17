@@ -1,0 +1,5 @@
+index=* EventCode=4625
+
+index=* EventCode=4625 | stats count by Account_Name
+
+index=* EventCode=4625 | stats count by Account_Name | where count > 5
