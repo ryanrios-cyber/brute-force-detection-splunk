@@ -1,0 +1,7 @@
+- Simulated brute force activity using repeated failed login attempts
+- Logs generated in Windows Security Event Viewer (EventCode 4625)
+- Exported logs as .evtx file
+- Uploaded logs into Splunk Enterprise
+- Verified ingestion and ran SPL queries
+- Built visualization of failed login attempts
+- Troubleshot disk space and Splunk service issues
